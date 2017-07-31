@@ -20,9 +20,9 @@ public class ArrayAlgo {
             }
         }
 
-        //zmienna tablicowa t1 o pojemności odpowiadającej rozmiarowi listy tempList
+        //zmienna tablicowa uniqueValuesArray o pojemności odpowiadającej rozmiarowi listy tempList
         int[] uniqueValuesArray = new int[tempList.size()];
-        //pętla for, która wypełnia tablicę t1 wartościami z listy tempList
+        //pętla for, która wypełnia tablicę uniqueValuesArray wartościami z listy tempList
         for (int i = 0; i < tempList.size(); i++) {
             uniqueValuesArray[i] = tempList.get(i);
         }
